@@ -1,0 +1,14 @@
+/home/tony/projects/murpc_bk/murpc/build/CMakeFiles/rebuild_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/CMakeFiles/edit_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/src/CMakeFiles/rebuild_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/src/CMakeFiles/murpc.dir
+/home/tony/projects/murpc_bk/murpc/build/src/CMakeFiles/edit_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/thirdparty/CMakeFiles/rebuild_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/thirdparty/CMakeFiles/edit_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/thirdparty/tinyxml/CMakeFiles/rebuild_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/thirdparty/tinyxml/CMakeFiles/tinyxml.dir
+/home/tony/projects/murpc_bk/murpc/build/thirdparty/tinyxml/CMakeFiles/edit_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/test/CMakeFiles/edit_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/test/CMakeFiles/rebuild_cache.dir
+/home/tony/projects/murpc_bk/murpc/build/test/CMakeFiles/rpc_server.dir
+/home/tony/projects/murpc_bk/murpc/build/test/CMakeFiles/rpc_client.dir

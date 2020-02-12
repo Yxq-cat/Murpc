@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/murpc/libmurpc.a  CMakeFiles/murpc.dir/loadxmlconfig.cpp.o CMakeFiles/murpc.dir/rpc_meta.pb.cc.o CMakeFiles/murpc.dir/rpcclient.cpp.o CMakeFiles/murpc.dir/rpcserver.cpp.o CMakeFiles/murpc.dir/zookeeperutils.cpp.o
+/usr/bin/ranlib ../../lib/murpc/libmurpc.a

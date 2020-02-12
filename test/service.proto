@@ -1,0 +1,35 @@
+syntax = "proto3"; 
+
+// 要生成RPC方法接口，必须定义cc_generic_services，同Java，python
+option cc_generic_services = true;  
+
+// 1.定义服务类和方法  2. 定义参数打包类型    3. 定义返回值打包类型
+
+// 登录服务
+message LoginRequest{
+	string name = 1;
+	string pwd = 2;
+}
+message LoginResponse{
+	bool isLoginSuccess = 1;
+}
+
+// 注册服务
+message RegRequest{
+	int32 id = 1;
+	string name = 2;
+	int32 age = 3;
+	int32  sex = 4;
+}
+message RegResponse{
+	bool isRegSuccess = 1;
+}
+
+// 定义RPC服务接口类和服务方法
+// protobuf重新生成一个类，把我们自己的UserService要包装一下
+// UserServiceRpc => rpc service端用的
+// UserServiceRpc_stub => rpc client端用的
+service UserServiceRpc{
+	rpc login(LoginRequest) returns (LoginResponse);
+	rpc reg(RegRequest) returns (RegResponse);
+}
